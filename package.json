@@ -1,0 +1,26 @@
+{
+  "name": "color",
+  "version": "1.0.0",
+  "description": "A simple node project to test go-crzy/crzy",
+  "main": "color.js",
+  "scripts": {
+    "start": "node color.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/go-crzy/color-node"
+  },
+  "keywords": [
+    "crzy"
+  ],
+  "author": "Gregory Guillou",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}
